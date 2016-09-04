@@ -15,7 +15,7 @@
  *-------------------------------------------------------- 
  * 
  * Fichier 		:	CreateHtmlTest.java
- * Cree le 		: 	6 déc. 2015 à 00:44:35
+ * Cree le 		: 	6 dÃ©c. 2015 Ã  00:44:35
  * Auteur		: 	admin
  * 
  * Description 	:
@@ -52,7 +52,7 @@ import com.template.tools.Tools;
  * @author  : admin
  * @project : freeMarker
  * @package : com.template
- * @date    : 6 déc. 2015 02:44:35
+ * @date    : 6 dÃ©c. 2015 02:44:35
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("applicationContextTest.xml")
@@ -70,11 +70,11 @@ public class TemplateModelTest
       String pattern = "dd/MM/yyyy";
       assertNotNull( templateModel );
       List<Person> listPerson = new LinkedList<Person>();
-      String ryanDate = "25/04/2012";
+      String ryanDate = "20/05/1976";
       listPerson.add( new Person( "MM", "Rm", "r@email.com", Tools.getDiffYear( ryanDate, pattern ) ) );
-      String assiaDate = "28/08/1979";
+      String assiaDate = "21/03/1979";
       listPerson.add( new Person( "MM", "As", "ma@email.com", Tools.getDiffYear( assiaDate, pattern ) ) );
-      String merzoukDate = "20/11/1972";
+      String merzoukDate = "22/02/1975";
       listPerson.add( new Person( "MM", "Mrk", "mrk@email.com", Tools.getDiffYear( merzoukDate, pattern ) ) );
       /** Create a data model */
       Map<String, Object> mapTemplateData = new HashMap<String, Object>();
