@@ -1,28 +1,3 @@
-/*
- *--------------------------------------------------------
- * Administrateur
- *--------------------------------------------------------
- * Project     : freeMarker
- *
- * Copyright Administrateur,  All Rights Reserved.
- *
- * This software is the confidential and proprietary
- * information of Administrateur.
- * You shall not disclose such Confidential Information
- * and shall use it only in accordance with the terms
- * of the license agreement you entered into with
- * Administrateur.
- *-------------------------------------------------------- 
- * 
- * Fichier 		:	Tools.java
- * Cree le 		: 	13 déc. 2015 à 01:03:36
- * Auteur		: 	admin
- * 
- * Description 	:
- * 
- *---------------------------------------------------------
- */
-
 package com.template.tools;
 
 import java.text.DateFormat;
